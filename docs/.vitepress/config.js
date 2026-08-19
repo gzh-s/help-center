@@ -10,10 +10,18 @@ export default {
     ],
     sidebar: [
       {
-        text: '指南',
+        text: '新手指南',
         items: [
-           { text: '新手指南', link: '/guide' },
+           { text: 'YJOJ 操作指南', link: '/guide' },
            { text: '常见问题', link: '/faq' }
+        ]
+      },
+     {
+        text: '社区规则',
+        items: [
+           { text: '社区规则', link: '/rules' },
+          { text: '题目规范', link: '/topic-problem' },
+          { text: '题解规范', link: '/topic-problem-solution' }
         ]
       }
     ],
